@@ -1,6 +1,8 @@
 # Problema
 Los miembros de la organización han sido almacenados en una base de datos no relacional. Descargar el archivo en este repo, importarlo y ejecutar las siguientes consultas (1 por punto). Hint: revisar mayúsculas y minúsculas 
 
+### mongoimport --jsonArray --db=icesitest --collection=persons --file=mongo/persons-mongo.json
+
 - Indicar cuántas personas activas con más de dos amigos y de género masculino.
 - Inactive las personas con los ojos de color café y que tenga entre 36 y 40 años, inclusive.
 - Incremente en 4 la edad de las personas de género femenino, que tenga sólo un correo registrado y entre sus intereses se encuentre "Agile".
